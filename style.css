@@ -1,0 +1,48 @@
+.form {
+    text-align: center;
+    background-color: none;
+    border-radius: 1%;
+}
+
+
+div {
+    padding: 10px;
+}
+.submit {
+    background-color: green;
+    border-radius: 20%;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: none;
+    border-radius: 1%;
+}
+
+a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+img {
+    width: 30px;
+}
+
+.main {
+    width: 1250px;
+    margin: 5px;
+    height: 550px;
+}
+
+.holders {
+    background-color: lightcoral;
+    padding: 0;
+}
+
