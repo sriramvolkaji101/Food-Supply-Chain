@@ -1,3 +1,8 @@
+
+body {
+    background-color: #373737;
+}
+
 .form {
     text-align: center;
     background-color: none;
@@ -21,7 +26,9 @@ div {
 h1 {
     text-align: center;
     background-color: none;
-    border-radius: 1%;
+    font-size: x-large;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -29,20 +36,65 @@ a {
     padding: 20px;
     text-align: center;
     color: black;
+    text-decoration: none;
+    color: white;
 }
 
 img {
-    width: 30px;
+    width: 100px;
 }
 
 .main {
     width: 1250px;
     margin: 5px;
-    height: 550px;
+    height: 810px;
 }
 
 .holders {
-    background-color: lightcoral;
+    display: flex;
+    font-size: medium;
     padding: 0;
+    margin-bottom: 0x;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 0.5px;
+    width: 1150px;
+    margin-left: 40px;
 }
+
+.bg {
+       
+}
+
+hr {
+    border-width: 70px;
+    color: #f08080;
+    margin: 0;
+}
+
+.fs {
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+   /* border-style: solid; */
+    padding: 30px;
+    width: 1250px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main {
+   /* border-style: solid; */
+    margin-left: 10px;
+    margin-top: 0;
+    border-top: 5px;
+}
+
+a:hover {
+    color: yellow; /* Change to any color you prefer */
+  }
+
 
