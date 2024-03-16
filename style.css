@@ -4,38 +4,85 @@ body {
 }
 
 .form {
-    text-align: center;
-    background-color: none;
-    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+    border-style: solid;
+    border-width: 2px;
+    width: 50%;
+    height: 97vh;
+    margin-left: 350px;
 }
 
+label {
+    display: flex;
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+    height: 20px;
+    width: 300px;
+}
 
 div {
     padding: 10px;
-}
-.submit {
-    background-color: green;
-    border-radius: 20%;
-    border: none;
-    padding: 10px;
-    font-size: large;
-    font-weight: 700;
-    margin: 10px;
+    color: white;
 }
 
+.submit {
+    background-color: green;
+    border-radius: 5%;
+    border: black;
+    font-size: small;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    width: 100px;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gg {
+    background-color: #373737;
+    border-style: solid;
+    border-color: aqua;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.an{
+    background-color: #373737;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: aqua;
+}
 h1 {
     text-align: center;
     background-color: none;
-    font-size: x-large;
+    font-size: 40px;
     padding-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 a {
     display: inline-block;
     padding: 20px;
     text-align: center;
-    color: black;
     text-decoration: none;
     color: white;
 }
@@ -53,6 +100,7 @@ img {
 .holders {
     display: flex;
     font-size: medium;
+    color: white;
     padding: 0;
     margin-bottom: 0x;
     border-style: solid;
@@ -63,9 +111,6 @@ img {
     margin-left: 40px;
 }
 
-.bg {
-       
-}
 
 hr {
     border-width: 70px;
@@ -80,7 +125,9 @@ hr {
     font-weight: bold;
     font-size: 40px;
    /* border-style: solid; */
-    padding: 30px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 5px;
     width: 1250px;
     margin-left: 30px;
     margin-top: 10px;
@@ -95,8 +142,10 @@ hr {
 
 a:hover {
     color: aqua; /* Change to any color you prefer */
-  }
+}
 
 span {
     color: aqua;
 }
+
+
